@@ -1,0 +1,19 @@
+{
+  "name": "Poor man budget app serverless api",
+  "version": "0.0.1-alpha",
+  "description": "Implementation of poor man budgeting method described in https://www.reddit.com/r/personalfinance/comments/2tymvf/poormans_budgeting_spreadsheet/",
+  "main": "api.js",
+  "repository": "",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^9.1.4"
+  }
+}
